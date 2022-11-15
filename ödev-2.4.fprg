@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Lenovo"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-11-13 03:35:39 &#214;S"/>
+        <attribute name="created" value="TGVub3ZvO0RFU0tUT1AtVThWQ0NINjsyMDIyLTExLTEzOzAzOjI4OjMyIMOWUzszMTEx"/>
+        <attribute name="edited" value="TGVub3ZvO0RFU0tUT1AtVThWQ0NINjsyMDIyLTExLTEzOzAzOjM1OjM5IMOWUzsxOzMyMjQ="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="nsayi" type="Integer" array="False" size=""/>
+            <declare name="ntoplam" type="Integer" array="False" size=""/>
+            <assign variable="ntoplam" expression="0"/>
+            <assign variable="nsayi" expression="1"/>
+            <for variable="nsayi" start="1" end="50" direction="inc" step="1">
+                <assign variable="ntoplam" expression="ntoplam+nsayi"/>
+            </for>
+            <output expression="ntoplam" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Lenovo"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-11-13 03:27:39 &#214;S"/>
+        <attribute name="created" value="TGVub3ZvO0RFU0tUT1AtVThWQ0NINjsyMDIyLTExLTEzOzAyOjQ4OjQxIMOWUzszMTEy"/>
+        <attribute name="edited" value="TGVub3ZvO0RFU0tUT1AtVThWQ0NINjsyMDIyLTExLTEzOzAzOjI3OjM5IMOWUzsxOzMyMjU="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="n" type="Integer" array="False" size=""/>
+            <assign variable="n" expression="0"/>
+            <for variable="n" start="1" end="10" direction="inc" step="1">
+                <output expression="&quot;Hello World&quot;" newline="True"/>
+            </for>
+        </body>
+    </function>
+</flowgorithm>
